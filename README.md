@@ -146,7 +146,7 @@ cd Instagram_DBMS_Project
 Run the DDL script:
 
 ```sql
-SOURCE DDL/ddl_tables.sql;
+SOURCE DDL/ddl_tables.txt;
 ```
 
 ---
@@ -156,7 +156,7 @@ SOURCE DDL/ddl_tables.sql;
 Run the data insertion script:
 
 ```sql
-SOURCE Data/insert_data.sql;
+SOURCE Data/insert_data.txt;
 ```
 
 ---
@@ -166,7 +166,7 @@ SOURCE Data/insert_data.sql;
 Run sample SQL queries:
 
 ```sql
-SOURCE Queries/Queries.sql;
+SOURCE Queries/Queries.txt;
 ```
 
 ---
