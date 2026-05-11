@@ -107,29 +107,23 @@ The primary objectives of this project are:
 ```text
 Instagram-DBMS-Project/
 │
-├── DDL
-│   └── create_tables.sql
-│
 ├── Data
-│   └── insert_data.sql
+│   └── insert_data.txt
+│
+├── DDL
+│   └── ddl_tables.txt
 │
 ├── Design
-│   ├── ER-Diagram
-│   │   ├── er_diagram.png
-│   │   └── er_diagram.pdf
-│   │
-│   └── Relational-Schema
-│       ├── relational_schema.png
-│       └── relational_schema.pdf
+│   ├── ER_Diagram.png
+│   └── ER_Diagram.pdf
+│   ├── Relational_Schema.png
+│   └── Relational_Schema.pdf
 │
 ├── Normalization
-│   └── BCNF_Proof_Report.pdf
+│   └── BCNF_Report.pdf
 │
 ├── Queries
-│   └── sample_queries.sql
-│
-├── Report
-│   └── Final_Report.pdf
+│   └── Queries.txt
 │
 └── README.md
 ```
@@ -152,7 +146,7 @@ cd Instagram_DBMS_Project
 Run the DDL script:
 
 ```sql
-SOURCE DDL/create_tables.sql;
+SOURCE DDL/ddl_tables.sql;
 ```
 
 ---
@@ -172,7 +166,7 @@ SOURCE Data/insert_data.sql;
 Run sample SQL queries:
 
 ```sql
-SOURCE Queries/sample_queries.sql;
+SOURCE Queries/Queries.sql;
 ```
 
 ---
