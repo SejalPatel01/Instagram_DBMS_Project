@@ -93,7 +93,7 @@ The primary objectives of this project are:
 
 # 📊 Technologies Used
 
-* MySQL
+* PostgreSQL
 * DBMS Concepts
 * ER Modeling
 * Relational Schema Design
